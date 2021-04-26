@@ -1,0 +1,3 @@
+package bogdandonduk.androidlibs.commonpreferencesutilsandroid.exceptions
+
+object ExceptionsUtilsExtensionVocabulary
