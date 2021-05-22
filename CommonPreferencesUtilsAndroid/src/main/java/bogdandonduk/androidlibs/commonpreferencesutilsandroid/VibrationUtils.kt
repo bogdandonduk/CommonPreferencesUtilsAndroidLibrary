@@ -6,7 +6,7 @@ import android.os.VibrationEffect
 import android.os.Vibrator
 
 @SuppressLint("NewApi")
-object VibratorService {
+object VibrationUtils {
     fun vibrateOneShot(context: Context, duration: Long, amplitude: Int = VibrationEffect.DEFAULT_AMPLITUDE) {
         PreferencesUtils.differentiateApiLevel(
             apiLevel = 26,

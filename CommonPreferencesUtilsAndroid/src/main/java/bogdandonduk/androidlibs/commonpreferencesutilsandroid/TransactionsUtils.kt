@@ -5,7 +5,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 
-object TransactionsService {
+object TransactionsUtils {
     fun openActivity(context: Context, activityClass: Class<out Activity>, currentActivityTracker: Activity?, options: Bundle? = null) {
         if(currentActivityTracker == null || currentActivityTracker::class.java != activityClass)
             context.startActivity(
