@@ -7,9 +7,8 @@ import top.defaults.drawabletoolbox.DrawableBuilder
 
 object GraphicsUtils {
     fun getRippleColor(@ColorInt backgroundColor: Int) =
-        if(ColorUtils.calculateLuminance(backgroundColor) > 0.5) {
+        if(ColorUtils.calculateLuminance(backgroundColor) > 0.5)
             Color.argb(55, 0, 0, 0)
-            DrawableBuilder()
-        } else
+        else
             Color.argb(55, 255, 255, 255)
 }
