@@ -11,4 +11,6 @@ object GraphicsUtils {
             Color.argb(55, 0, 0, 0)
         else
             Color.argb(55, 255, 255, 255)
+
+    private fun getDrawableBuilder() = DrawableBuilder()
 }
